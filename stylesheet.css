@@ -1,3 +1,32 @@
 body{
 	background-color: #023970;
+    color: white;
+    display: block;
+    
+}
+
+#A {
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+    font-size: 4em;
+}
+
+#B {
+font-family: 'Cuprum', sans-serif;
+    display: inline-block;
+}
+#C {
+font-family: 'Architects Daughter', cursive;
+    display: inline-block;
+    font-size: 4em;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+    height:auto;
+}
+
+img {
+    display:inline-block;
 }
