@@ -19,16 +19,36 @@
  </head>
 
  <body>
-     <div>
-     <img src="img/icon.ico"> <h1 id="A">UCSD Women's Club Soccer</h1>
-         </div>
-     
-     
 
-     <div>
-     <img src="img/icon.ico"> 
-     <h1 id="C">UCSD Women's Club Soccer</h1>
-         </div>
+
+    <!-- Video Markup -->
+    <section class="masthead">
+        <video class="masthead-video" autoplay loop muted>
+            <source src="videos/USWNT.mp4" type="video/mp4">
+        </video>
+        <div class="masthead-overlay"></div>
+        <a href="homepage.html"><div class="masthead-arrow"></div></a>
+        <center><h1>UCSD Women's Club Soccer</h1></center>
+        <a class="masthead-video-credit" href="http://vimeo.com/82495711" target="_blank">
+            <span>A website made with love</span>
+            <span>by Kenia Duque, Megan Ring, Natasha Springer</span>
+        </a>
+    </section>
+
+
+
+    <!-- Load Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="covervid.js"></script>
+    <script src="scripts.js"></script>
+
+    <!-- Call CoverVid -->
+    <script type="text/javascript">
+        // If using jQuery
+        $('.masthead-video').coverVid(1920, 1080);
+        // If not using jQuery (Native Javascript)
+            //coverVid(document.querySelector('.masthead-video'), 1920, 1080);
+    </script>
          
  </body>
 </html>

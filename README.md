@@ -1,1 +1,1 @@
-# UCSD-Women-s-Club-Soccer
+# UCSD-Women-Club-Soccer
