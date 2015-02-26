@@ -4,6 +4,10 @@
 html {
     -webkit-font-smoothing: antialiased;
 }
+
+body{
+    color: white;
+}
 .masthead {
     position: relative;
     min-width: 720px;
