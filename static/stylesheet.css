@@ -5,6 +5,17 @@ body{
     
 }
 
+.navbar-brand{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-size: 1.5em;
+  margin-top: -15px;
+}
+
+.nav.navbar-nav>li,.collapse.navbar-collapse,.nav>li>a:hover, .nav>li>a:focus, a{
+  color: white;
+}
+
 .container-fluid{
   width: 946px;
   height: auto;
