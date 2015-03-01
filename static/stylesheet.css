@@ -104,12 +104,14 @@ body{
     height: auto;
 }
 
-  /* Roster Hover over
+ 
+
+/* Roster Hover over
 
 body {
   padding-top: 50px;
-}*/
- 
+}
+*/ 
 .thumbnail {
     position:relative;
     overflow:hidden;
@@ -137,3 +139,32 @@ body {
 }
 
 
+
+
+
+footer {
+    color:black;
+    background-color: #fff;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.col-lg-6 img {
+background-color:yellow; 
+}
+
+
+
+
+
+
+
+
+
+
+    
