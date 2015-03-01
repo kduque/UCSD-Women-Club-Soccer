@@ -94,4 +94,13 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
   }
 
+/* About page */
+.inline {
+/*    display: inline;*/
+    float: left;
+}
+.about-pic {
+    max-width: 250px;
+    height: auto;
+}
 
