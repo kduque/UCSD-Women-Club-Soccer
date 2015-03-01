@@ -34,8 +34,8 @@ body{
 
 #contact-captain{
   background-color: white;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 300px;
   display: inline-block;
 }
 
@@ -133,12 +133,14 @@ body{
 }
     
 
-  /* Roster Hover over
+ 
+
+/* Roster Hover over
 
 body {
   padding-top: 50px;
-}*/
- 
+}
+*/ 
 .thumbnail {
     position:relative;
     overflow:hidden;
@@ -166,3 +168,32 @@ body {
 }
 
 
+
+
+
+footer {
+    color:black;
+    background-color: #fff;
+    height: 300px;
+}
+
+
+
+
+
+
+
+.col-lg-6 img {
+background-color:yellow; 
+}
+
+
+
+
+
+
+
+
+
+
+    
