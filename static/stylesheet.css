@@ -5,6 +5,7 @@ body{
     
 }
 
+/* navbar */
 .navbar-brand{
   font-family: 'Permanent Marker', cursive;
   color: white;
@@ -16,12 +17,14 @@ body{
   color: white;
 }
 
+/* container for every page */
 .container-fluid{
   width: 946px;
   height: auto;
   padding: 0;
 }
 
+/* homepage */
 #fb-outbox{
   background-color: white;
   width: 300px;
@@ -34,6 +37,15 @@ body{
   width: 100px;
   height: 100px;
   display: inline-block;
+}
+
+/* results page */
+
+.result-box{
+  width: 946px;
+  height: 300px;
+  background-color: white;
+
 }
 
 /* Carousel base class */
