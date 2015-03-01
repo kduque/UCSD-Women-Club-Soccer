@@ -9,6 +9,11 @@
     <title>UCSD Women's Club Soccer</title>
     <link href="img/icon.ico" rel="shortcut icon" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Cuprum|Architects+Daughter'     rel='stylesheet' type='text/css'>
+
+    <!--the schedule-->
+    <link rel="stylesheet" href="schedule/example/css/gh-buttons.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="schedule/example/css/style.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="schedule/example/css/responsive.css" type="text/css" media="screen" charset="utf-8">
       
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -98,8 +103,90 @@
 
     <div id="startchange"></div>
 
+
+
+    <!--the schedule-->
+
+    <div class="track example-5">
+    <div class="inner">
+      <h2>Schedule</h2>
+
+      <div class="view-port">
+        <div id="example-5" class="slider-container">
+          <div class="item">
+            <img src="http://ib1.huluim.com/video/60044632?size=220x124">
+            <p>Trailer 1</p>
+          </div>
+          <div class="item">
+            <img src="http://ib2.huluim.com/video/60063785?size=220x124">
+            <p>Trailer 2</p>
+          </div>
+          <div class="item">
+            <img src="http://ib2.huluim.com/video/60062745?size=220x124">
+            <p>Trailer 3</p>
+          </div>
+          <div class="item">
+            <img src="http://ib1.huluim.com/video/40050156?size=220x124">
+            <p>Trailer 4</p>
+          </div>
+          <div class="item">
+            <img src="http://ib1.huluim.com/video/60066740?size=220x124">
+            <p>Trailer 5</p>
+          </div>
+          <div class="item">
+            <img src="http://ib4.huluim.com/video/60062747?size=220x124">
+            <p>Trailer 6</p>
+          </div>
+          <div class="item">
+            <img src="http://ib3.huluim.com/video/60062746?size=220x124">
+            <p>Trailer 7</p>
+          </div>
+          <div class="item">
+            <img src="http://ib1.huluim.com/video/60062744?size=220x124">
+            <p>Trailer 8</p>
+          </div>
+          <div class="item">
+            <img src="http://ib2.huluim.com/video/60060717?size=220x124">
+            <p>Trailer 9</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="pagination">
+          <a href="#" class="prev disabled"></a>
+          <a href="#" class="next disabled"></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     <!-- Load Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!--the schedule-->
+
+    <script type="text/javascript" src="schedule/lib/jquery-easing-1.3.0.js"></script>
+    <script type="text/javascript" src="schedule/lib/modernizr.mediaqueries.transforms3d.js"></script>
+    <script type="text/javascript" src="schedule/lib/responsive-hub.js"></script>
+    <script type="text/javascript" src="schedule/src/jquery.silver_track.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/src/plugins/jquery.silver_track.navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/src/plugins/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/src/plugins/jquery.silver_track.remote_content.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/src/plugins/jquery.silver_track.responsive_hub_connector.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/src/plugins/jquery.silver_track.css3_animation.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/src/plugins/jquery.silver_track.circular_navigator.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="schedule/example/js/script.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/example/js/example1.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/example/js/example2_and_3.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/example/js/example4.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/example/js/example5.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/example/js/example6.js" charset="utf-8"></script>
+    <script type="text/javascript" src="schedule/example/js/example7.js" charset="utf-8"></script>
+
 
     <script type="text/javascript">
         $(document).ready(function(){       
@@ -115,6 +202,22 @@
                }
            });
         });
+    </script>
+
+    <!--the schedule-->
+
+    <script>
+    $(function() {
+      $.responsiveHub({
+        layouts: {
+          480:  "phone",
+          481:  "small-tablet",
+          731:  "tablet",
+          981:  "web"
+        },
+        defaultLayout: "web"
+      });
+    });
     </script>
 
          
