@@ -22,31 +22,6 @@
     <link href="stylesheet.css" rel="stylesheet">
 
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script><script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
- 
-    <script type="text/javascript" src="js/mapmarker.jquery.js"></script>
-
-      <script type="text/javascript">// <![CDATA[
-      $(document).ready(function(){
-       
-      //set up markers
-      var myMarkers = {"markers": [
-      {"latitude": "31.42866311735861", "longitude":"-98.61328125", "icon": "img/soccerball.png", "baloon_text": 'This is <strong>Texas</strong>'},
-      {"latitude": "35.101934057246055", "longitude":"-96.6796875", "icon": "img/soccerball.png", "baloon_text": 'This is <strong>Oklahoma</strong>'},
-      {"latitude": "38.61687046392973", "longitude":"-98.876953125", "icon": "img/soccerball.png", "baloon_text": 'This is <strong>Kansas</strong>'}
-      ]
-      };
-       
-      //set up map options
-      $("#map").mapmarker({
-      zoom : 5,
-      center : 'United States',
-      markers : myMarkers
-      });
-       
-      });
-      // ]]></script>
-
  </head>
 
  <body>
@@ -91,14 +66,14 @@
 
 
     <div id="startchange"></div>
-
+      
     <div class="container-fluid">
-
+      <div id="map" style="width: 946px; height: 400px; border: 2px solid red;">
+      </div>
 
     </div>
 
-      <div id="map" style="width: 550px; height: 450px; border: 2px solid red;">
-      </div>
+      
 
    
 
@@ -122,6 +97,30 @@
            });
         });
     </script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script><script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+ 
+    <script type="text/javascript" src="js/mapmarker.jquery.js"></script>
+
+      <script type="text/javascript">// <![CDATA[
+      $(document).ready(function(){
+       
+      //set up markers
+      var myMarkers = {"markers": [
+      {"latitude": "32.880058", "longitude":"-117.230577", "baloon_text": 'This is <strong>Warren Field</strong>'},
+      {"latitude": "32.880238", "longitude":"-117.225172", "baloon_text": 'This is <strong>Sports Deck</strong>'}
+      ]
+      };
+       
+      //set up map options
+      $("#map").mapmarker({
+      zoom : 15,
+      center : 'University of California San Diego',
+      markers : myMarkers
+      });
+       
+      });
+      // ]]></script>
 
 
 
