@@ -146,17 +146,28 @@ footer {
     color:black;
     background-color: #fff;
     height: 300px;
+    text-decoration: none;
 }
 
+.footertext {
+    style="text-decoration: none;
+    color: black !important;
+}
 
-
+.col-md-3> a {
+    style="text-decoration: none;
+    color: black;
+}
 
 
 
 
 .col-lg-6 img {
-background-color:yellow; 
+background-color; 
 }
+
+
+
 
 
 
