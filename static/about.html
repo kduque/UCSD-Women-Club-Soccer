@@ -66,25 +66,6 @@
 
     <!--changes the navbar color-->
     <div id="startchange"></div>
-
-    <!-- Load Scripts -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){       
-           var scroll_start = 0;
-           var startchange = $('#startchange');
-           var offset = startchange.offset();
-           $(document).scroll(function() { 
-              scroll_start = $(this).scrollTop();
-              if(scroll_start > offset.top) {
-                  $('#navbar').css('background-color', '#C29D4E');
-               } else {
-                  $('#navbar').css('background-color', 'transparent');
-               }
-           });
-        });
-    </script>
      
      <!-- body content --> 
      <div class="container-fluid">
@@ -102,7 +83,7 @@
                 <h3><img class="about-pic" src="img/about1.jpg" alt="">TEAM OVERVIEW</h3>
              <p>The UC San Diego Women’s Club Soccer Team is part of NIRSA Region VI: West Coast Soccer Association – Premier Central Division, which also includes UC Irvine, UCLA, UC Santa Barbara, and the University of Southern California.</p>
              <p>We are aware that, as students, missing classes is not ideal. Student athletes must, however, learn to successfully balance soccer and their studies. Although we fully understand that you are a student first, we expect players who have committed to the team to make a concerted effort to attend all practices and games. As athletes, our attendance and work ethic are a reflection of our respect for the visiting teams, our teammates, and the administrators who work to make our program possible.</p>
-             <p> Playing for the UC San Diego Women’s Club Soccer Team is a wonderful experience, a way to have fun, relieve stress, and continue playing competitive soccer against challenging opponents after high school and club soccer end. Our players form close bonds and lasting friendships, a family that we hope to make you a part of.</p>
+             <p>Playing for the UC San Diego Women’s Club Soccer Team is a wonderful experience, a way to have fun, relieve stress, and continue playing competitive soccer against challenging opponents after high school and club soccer end. Our players form close bonds and lasting friendships, a family that we hope to make you a part of.</p>
          </div>
          
          <div class="about-text">       
@@ -118,6 +99,24 @@
          </div>
      </div>
 
+         <!-- Load Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){       
+           var scroll_start = 0;
+           var startchange = $('#startchange');
+           var offset = startchange.offset();
+           $(document).scroll(function() { 
+              scroll_start = $(this).scrollTop();
+              if(scroll_start > offset.top) {
+                  $('#navbar').css('background-color', '#C29D4E');
+               } else {
+                  $('#navbar').css('background-color', 'transparent');
+               }
+           });
+        });
+    </script>
          
  </body>
 </html>
