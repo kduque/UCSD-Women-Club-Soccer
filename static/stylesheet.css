@@ -27,16 +27,42 @@ body{
 /* homepage */
 #fb-outbox{
   background-color: white;
-  width: 300px;
-  height: 425px;
+  width: 400px;
+  height: 525px;
   display: inline-block;
 }
 
 #contact-captain{
   background-color: white;
-  width: 400px;
-  height: 300px;
+  width: 450px;
+  height: 350px;
   display: inline-block;
+  color: black;
+  margin-left: 50px;
+  margin-top: 60px;
+
+}
+
+#contact-captain h3, #contact-captain h4{
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;  
+  text-align: center; 
+}
+
+.circle-captain {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 180px;
+    height: 180px;
+    display: inline-block; 
+    border: 4px solid #C29D4E;
+/*    margin-top: 30px;*/
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px; 
+    text-align: center;
 }
 
 /* results page */
