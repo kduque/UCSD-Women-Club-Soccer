@@ -206,7 +206,7 @@ footer {
 
 .footertext {
     style="text-decoration: none;
-    color: black !important;
+    color: black;
 }
 
 .col-md-3> a {
@@ -217,18 +217,40 @@ footer {
 
 
 
-.col-lg-6 img {
-background-color; 
+
+
+
+.circle {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 180px;
+    height: 180px;
+    display: inline-block; 
+    border: 4px solid #C29D4E;
+/*    margin-top: 30px;*/
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px; 
+    text-align: center;
 }
 
 
 
 
 
+.message-box {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
 
 
-
-
+#emailaddress {
+   
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    
+}
 
 
 
