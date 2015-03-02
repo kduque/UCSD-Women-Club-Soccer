@@ -28,18 +28,18 @@ body{
 #fb-outbox{
   background-color: white;
   width: 400px;
-  height: 525px;
+  height: 425px;
   display: inline-block;
 }
 
 #contact-captain{
   background-color: white;
-  width: 450px;
+  width: 500px;
   height: 350px;
   display: inline-block;
   color: black;
-  margin-left: 50px;
-  margin-top: 60px;
+  margin-left: 40px;
+  float: right;
 
 }
 
@@ -64,6 +64,27 @@ body{
     margin-top: 10px; 
     text-align: center;
 }
+
+.btn.btn-lg.btn-default{
+  display: inline-block;
+  float: right;
+  width: 200px;
+  height: auto;
+  background-color: #C29D4E;
+  color: black;
+}
+
+#button1{
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: -44px; 
+}
+
+#button2{
+  margin-right: 20px;
+  margin-top: -44px;
+}
+
 
 /* results page */
 
