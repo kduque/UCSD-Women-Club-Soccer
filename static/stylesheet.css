@@ -325,5 +325,24 @@ footer {
     border: 5px solid white;
     margin-bottom: 25px;
 }
-
+.video-text {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 30px;
+    margin-bottom: 50px; 
+    color: black; 
+    width: 353px;
+    height: 420px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.video {
+    width: 593px;
+    height: 420px;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
     
