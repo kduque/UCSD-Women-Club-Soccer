@@ -127,7 +127,6 @@ body{
 }
 
 /* results page */
-
 .result-box{
   width: 946px;
   height: auto;
@@ -162,7 +161,7 @@ body{
 }
 .blogpost-text > a,
 .blogpost-text2 > a {
-    color: #023970; 
+    color: rgb(231, 182, 59); 
 }
 .blogpost-pic {
     width: 250px;
