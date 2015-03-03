@@ -227,9 +227,6 @@ body{
     text-align: center;
 }
     
-
- 
-
 /* Roster Hover over
 
 body {
@@ -274,12 +271,12 @@ footer {
 }
 
 .footertext {
-    style="text-decoration: none;
+    text-decoration: none;
     color: black;
 }
 
 .col-md-3> a {
-    style="text-decoration: none;
+    text-decoration: none;
     color: black;
 }
 
@@ -321,7 +318,12 @@ footer {
     
 }
 
-
-
+/* Photos & Videos page */
+.photo-thumb {
+    width: 215px;
+    height: 215px;
+    border: 5px solid white;
+    margin-bottom: 25px;
+}
 
     
