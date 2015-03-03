@@ -268,18 +268,25 @@ body {
 
 footer {
     color:black;
-    background-color: #fff;
-    height: 300px;
+    background-color: rgba(231, 182, 59, 1);
+    height: 130px;
     text-decoration: none;
 }
 
 .footertext {
-    style="text-decoration: none;
+    text-decoration: none;
     color: black;
+    
+}
+.footertext > a:active {
+    text-decoration: none;
+    color: blue;
+    
 }
 
+
 .col-md-3> a {
-    style="text-decoration: none;
+    text-decoration: none;
     color: black;
 }
 
@@ -322,6 +329,15 @@ footer {
 }
 
 
+#roster-text {
+    
+font-family: 'Gloria Hallelujah', cursive;
+}
 
 
+
+/*
+ .foot-links > a {
+    color: red;
+}
     
