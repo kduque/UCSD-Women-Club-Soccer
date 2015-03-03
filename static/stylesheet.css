@@ -227,9 +227,6 @@ body{
     text-align: center;
 }
     
-
- 
-
 /* Roster Hover over
 
 body {
@@ -328,12 +325,22 @@ footer {
     
 }
 
+<<<<<<< HEAD
 
 #roster-text {
     
 font-family: 'Gloria Hallelujah', cursive;
 }
 
+=======
+/* Photos & Videos page */
+.photo-thumb {
+    width: 215px;
+    height: 215px;
+    border: 5px solid white;
+    margin-bottom: 25px;
+}
+>>>>>>> a270bd814bd51dff1e8d4e61748aae4d61cbfc7b
 
 
 /*
