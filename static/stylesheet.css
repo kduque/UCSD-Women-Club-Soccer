@@ -1,7 +1,7 @@
 body{
     background-color: #023970;
     color: white;
-    height: 2000px;  
+    height: auto; 
 }
 
 /* navbar */
@@ -84,6 +84,20 @@ body{
   margin-top: -44px;
 }
 
+
+#home-sched{
+  color: #023970;
+  
+}
+
+#home-sched .inner{
+  padding-left: 0;
+}
+
+#home-sched .item{
+  background-color: white;
+
+}
 
 /*Directions page*/
 
