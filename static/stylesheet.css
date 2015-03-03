@@ -89,6 +89,27 @@ body{
 
 #map{
   color: black;
+  margin-top: 50px;
+}
+
+.warren_field{
+  width: 450px;
+  height: 400px;
+  float: left;
+  display: inline-block;
+  background-color: white;
+  margin-top: 50px;
+  color: black;
+}
+
+.sports_deck{
+  width: 450px;
+  height: 400px;
+  float: right;
+  display: inline-block;
+  background-color: white;
+  margin-top: 50px;
+  color: black;
 }
 
 /* results page */
