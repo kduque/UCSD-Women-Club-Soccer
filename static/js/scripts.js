@@ -1,6 +1,6 @@
 fullscreen();
 $(window).resize(fullscreen);
-$(window).scroll(headerParallax);
+$(window).show(headerParallax);
 
 function fullscreen() {
 	var masthead = $('.masthead');
@@ -12,7 +12,7 @@ function fullscreen() {
 }
 
 function headerParallax() {
-	var st = $(window).scrollTop();
+	var st = 0;
 	var headerScroll = $('.masthead h1');
 
 	if (st < 500) {
