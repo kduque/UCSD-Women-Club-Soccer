@@ -107,6 +107,9 @@
 </div>
     
 <div class="col-sm-8 contact-form">
+
+    
+    
 <form id="contact" method="post" class="form" role="form">
 <div class="row">
 <div class="col-xs-6 col-md-6 form-group">
@@ -120,10 +123,18 @@
 <br />
 <div class="row">
 <div class="col-xs-12 col-md-12 form-group">
-<button class="btn btn-primary pull-right" type="submit">Submit</button>
+<button class="btn btn-primary pull-right" id="contact-btn">Submit</button>
 </form>
 </div>
-</div> 
+</div>
+    
+    
+    <!-- Dismissable alert -->
+    <div class="alert alert-warning alert-dismissable" role="alert" id="le-alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>Thank you!</strong> Your message has been successfully sent to the captains.
+    </div>
+    
     </div>
       </div>
       
@@ -239,6 +250,7 @@
     
     <!-- Load Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){       
@@ -254,6 +266,46 @@
                }
            });
         });
+    </script>
+
+<!--
+    <script type="text/javascript">
+    $('#contact-btn').click(function() {
+
+   $('.alert').show();
+
+})
+    </script>
+-->
+<!--
+    <script type="text/javascript">
+         $('#contact-btn').click(function () {
+          $('#le-alert').addClass('in'); // shows alert with Bootstrap CSS3 implem
+        });
+
+//        $('.close').click(function () {
+        $(document).onload(function () {
+          $(this).parent().removeClass('in'); // hides alert with Bootstrap CSS3 implem
+        });
+    </script>
+-->
+    
+<!--
+    <script type="text/javascript">
+        $("#contact-btn, .close").click(function () {
+        $("#le-alert").toggleClass("hidden");
+    });
+    </script>
+-->
+    
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#le-alert').hide();  
+    });
+    $('#contact-btn').click(function () {
+       // $('#le-alert').show();
+        alert("form submitted");
+    });
     </script>
 
          
