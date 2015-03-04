@@ -108,7 +108,11 @@
     
 <div class="col-sm-8 contact-form">
 
-    
+    <!-- Dismissable alert -->
+    <div class="alert alert-warning alert-dismissable" role="alert" id="le-alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>Thank you!</strong> Your message has been successfully sent to the captains.
+    </div>    
     
 <form id="contact" method="post" class="form" role="form">
 <div class="row">
@@ -127,13 +131,6 @@
 </form>
 </div>
 </div>
-    
-    
-    <!-- Dismissable alert -->
-    <div class="alert alert-warning alert-dismissable" role="alert" id="le-alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Thank you!</strong> Your message has been successfully sent to the captains.
-    </div>
     
     </div>
       </div>
@@ -303,8 +300,8 @@
         $('#le-alert').hide();  
     });
     $('#contact-btn').click(function () {
-       // $('#le-alert').show();
-        alert("form submitted");
+        $('#le-alert').show();
+        alert("Your message has been submitted to the captains. Thank you!");
     });
     </script>
 
