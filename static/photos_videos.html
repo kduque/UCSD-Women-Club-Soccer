@@ -20,6 +20,10 @@
 
     <!-- Custom styles for this template -->
     <link href="stylesheet.css" rel="stylesheet">
+      
+    <!-- HTML5 Lightbox -->
+    <script type="text/javascript" src="html5lightbox/jquery.js"></script>
+    <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>             
 
  </head>
 
@@ -81,6 +85,30 @@
             <p class="date">Tuesday, March 3, 2015</p>
             <p>An overview of the Fall 2014 season.</p>
         </div>
+    
+        
+    
+        <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-3">            
+            <a href="img/teampractice.JPG" class="html5lightbox" data-group="mygroup" data-thumbnail="img/teampractice.JPG">
+                <img class="photo-thumb" src="img/teampractice.JPG" />
+                     </a> 
+        </div>
+   
+         <div class="col-xs-6 col-sm-4 col-md-3">
+             <a href="img/about2.jpg" class="html5lightbox" data-group="mygroup" data-thumbnail="img/img/about2.jpg"><img class="photo-thumb" src="img/about2.jpg" />
+            </a> 
+        </div>
+         <div class="col-xs-6 col-sm-4 col-md-3">            
+                 <img class="photo-thumb" src="img/IMG_1831.JPG"> 
+        </div>
+         <div class="col-xs-6 col-sm-4 col-md-3">            
+                 <img class="photo-thumb" src="img/about4.jpg"> 
+        </div>
+      </div>
+        
+        
+        
         
       <div class="row">
         <div class="col-xs-6 col-sm-4 col-md-3">            
@@ -222,8 +250,6 @@
     <!-- Load Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-    
-
     <script type="text/javascript">
         $(document).ready(function(){       
            var scroll_start = 0;
@@ -239,6 +265,7 @@
            });
         });
     </script>
+
     
 </body>
 </html>

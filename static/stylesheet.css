@@ -111,9 +111,11 @@ body{
   height: 400px;
   float: left;
   display: inline-block;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   margin-top: 50px;
   color: black;
+  border: 3px solid rgb(231, 182, 59);
+  padding-left: 20px;
 }
 
 .sports_deck{
@@ -121,20 +123,32 @@ body{
   height: 400px;
   float: right;
   display: inline-block;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   margin-top: 50px;
   color: black;
+  border: 3px solid rgb(231, 182, 59);
+  padding-left: 20px;
 }
 
 /* results page */
 .result-box{
   width: 946px;
   height: auto;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   color: black;
   margin-top: 50px;
   padding-left: 20px;
+  padding-right: 20px; 
+/*  border-color: rgb(231, 182, 59);*/
+  border: 3px solid rgb(231, 182, 59);
 }
+hr {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: black;
+    border-top: 1px solid black;
+}
+
 .blogpost-text {
 /*    background-color: rgba(255, 255, 255, 0.9);*/
     margin-top: 30px;
@@ -375,7 +389,7 @@ font-family: 'Gloria Hallelujah', cursive;
 .photo-thumb {
     width: 215px;
     height: 215px;
-    border: 5px solid white;
+    border: 3px solid white;
     margin-bottom: 25px;
 }
 .video-text {
@@ -414,3 +428,19 @@ font-family: 'Gloria Hallelujah', cursive;
     margin-top: 50px;
     padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
