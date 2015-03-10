@@ -148,6 +148,11 @@ hr {
     color: black;
     border-top: 1px solid black;
 }
+.about-divider {
+    margin-top: 64px;
+    width: 40%;
+    background-color: rgb(231, 182, 59);
+}
 
 .blogpost-text {
 /*    background-color: rgba(255, 255, 255, 0.9);*/
@@ -239,25 +244,31 @@ hr {
 
 /* About page */
 .about-pic {
-    max-width: 250px;
+    width: 250px;
     height: auto;
     float: left;
     margin-left: 10px; 
     margin-right: 10px;
 }
 .about-pic2 {
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     float: right;
-    margin: 10px; 
+    margin-left: 10px; 
+    margin-right: 10px;
 }
 .about-text {
-    width: 946px;
+    color: white; 
+    width: 680px;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
-    margin-top: 50px;
-    padding: 10px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.about-text > h3 {
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .circle-row {
     text-align: center;
