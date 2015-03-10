@@ -2,18 +2,24 @@ body{
     background-color: #023970;
     color: white;
     height: auto; 
+    font-family: 'Muli', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'McLaren', sans-serif;
 }
 
 /* navbar */
 .navbar-brand{
   font-family: 'Permanent Marker', cursive;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.em;
   margin-top: -15px;
 }
 
 .nav.navbar-nav>li,.collapse.navbar-collapse,.nav>li>a:hover, .nav>li>a:focus, a{
   color: white;
+
 }
 
 /* container for every page */
@@ -162,9 +168,9 @@ hr {
     padding-bottom: 5px;
 }
 .blogpost-text2 {
-    background-color: rgba(255, 255, 255, 0.9);
+/*    background-color: rgba(255, 255, 255, 0.9);*/
     margin-top: 30px;
-    color: black; 
+    color: white; 
     width: 946px;
     height: auto;
     float: left;
@@ -172,6 +178,8 @@ hr {
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: 3px solid rgb(231, 182, 59);
+    margin-bottom: 15px;
 }
 .blogpost-text > a,
 .blogpost-text2 > a {
@@ -191,6 +199,7 @@ hr {
 .blogpost-title {
     margin-left: 270px;
     margin-top: 100px;
+    
 }
 
 /* Carousel base class */
