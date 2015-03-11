@@ -19,7 +19,6 @@ h1,h2,h3,h4 {
 
 .nav.navbar-nav>li,.collapse.navbar-collapse,.nav>li>a:hover, .nav>li>a:focus, a{
   color: white;
-
 }
 
 /* container for every page */
@@ -38,11 +37,10 @@ h1,h2,h3,h4 {
 }
 
 #contact-captain{
-  background-color: white;
   width: 500px;
   height: 350px;
   display: inline-block;
-  color: black;
+  color: white;
   margin-left: 40px;
   float: right;
 
