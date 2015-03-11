@@ -102,6 +102,7 @@ h2 {
   width: 64px;
   height: 64px;
   background: url("../img/arrows.png");
+/*    background: url("../static/img/arrow.png");*/
   background-repeat: no-repeat;
 }
 
