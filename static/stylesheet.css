@@ -471,7 +471,11 @@ font-family: 'Gloria Hallelujah', cursive;
     margin-top: 50px;
     padding: 10px;
 }
-
+.tryout-divider {
+    width: 458px;
+    height: 0.25em;
+    background-color: rgb(231, 182, 59);
+}
 .roster-text {
     background-color: grey;
     color: white; 
