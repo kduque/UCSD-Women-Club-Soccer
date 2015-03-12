@@ -130,6 +130,10 @@ h1,h2,h3,h4 {
   color: black;
   margin-top: 50px;
 }
+.map {
+    float: left;
+    margin-top: 50px;
+}
 
 .warren_field{
   width: 450px;
@@ -140,19 +144,19 @@ h1,h2,h3,h4 {
   margin-top: 50px;
   color: white;
   border: 3px solid rgb(231, 182, 59);
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .sports_deck{
   width: 450px;
   height: 400px;
-  float: right;
+  float: left;
   display: inline-block;
 /*  background-color: rgba(255, 255, 255, 0.9);*/
   margin-top: 50px;
   color: white;
   border: 3px solid rgb(231, 182, 59);
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 /* results page */
@@ -325,9 +329,13 @@ body {
 .thumbnail {
     position:relative;
     overflow:hidden;
+    height: 275px;
+    margin-bottom: 0px;
+}
+.thumbnail > img  {
+    width: 253px;
     height: 266px;
 }
-
 
  
 .caption {
@@ -455,12 +463,6 @@ font-family: 'Gloria Hallelujah', cursive;
 /*    background-color: rgba(255, 255, 255, 0.9); */
 }
 
-
-
-
-    
-
-
 .tryout-text {
     width: 460px;
     height: auto;
@@ -470,7 +472,20 @@ font-family: 'Gloria Hallelujah', cursive;
     padding: 10px;
 }
 
-
+.roster-text {
+    background-color: grey;
+    color: white; 
+    width: auto;
+    height: 39px;
+    margin-bottom: 20px; 
+    padding-left: 10px;
+    padding-bottom: 5px;
+/*    padding-top: 1px;*/
+}
+.roster-text > h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 
 
