@@ -21,31 +21,19 @@
 
     <!-- Custom styles for this template -->
     <link href="stylesheet.css" rel="stylesheet">
+
+
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
       
     <!-- HTML5 Lightbox -->
+    <!--
     <script type="text/javascript" src="html5lightbox/jquery.js"></script>
-    <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>  
+    <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>  -->
       
       
-      
-    <!-- Fancybox -->
-    <!-- Add jQuery library -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
 
-    <!-- Add mousewheel plugin (this is optional) -->
-    <script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-    <!-- Optionally add helpers - button, thumbnail and/or media -->
-    <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-    <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
  </head>
 
@@ -63,7 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="homepage.html">
+          <a class="navbar-brand" href="index.html">
             <img src="img/icon.ico" width="50">
             UCSD Women's Club Soccer
           </a>
@@ -75,7 +63,7 @@
             <li><a href="results.html">Results</a></li>
             <li><a href="tryouts.html">Tryouts</a></li>
             <li><a href="roster.html">Roster</a></li>
-            <li><a href="photos_videos.html">Photos & Videos</a></li>
+            <li><a href="photos_videos.html"><u>Photos & Videos</u></a></li>
             <li><a href="directions.html">Directions</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -97,10 +85,10 @@
         
       <div class="video">
 
-<!--       Doesn't autoplay, but frame is weird  
-          <video width="593" height="410" src="videos/USWNT.mp4" controls></video>-->
+          <video width="593" height="410" src="videos/MVI_0920_1.mp4" controls></video>
 
-          <iframe width="593px" height="420px" src="videos/MVI_0920_1.mp4" class="video"></iframe>
+
+
       </div>
         <div class="video-text">
             <h3>UCSD Women's Club Soccer Promo</h3>
@@ -111,23 +99,28 @@
         
         <!-- Test --> 
         <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-            <a href="img/teampractice.JPG" class="html5lightbox" data-group="mygroup" data-thumbnail="img/teampractice.JPG">
-                <img class="photo-thumb" src="img/teampractice.JPG" />
-                     </a> 
+         <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG1.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light1.jpg">
+          </a> 
         </div>
    
-         <div class="col-xs-6 col-sm-4 col-md-3">
-             <a href="img/about2.jpg" class="html5lightbox" data-group="mygroup" data-thumbnail="img/img/about2.jpg"><img class="photo-thumb" src="img/about2.jpg" />
-            </a> 
+           <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG2.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light2.jpg">
+          </a> 
         </div>
             
-         <div class="col-xs-6 col-sm-4 col-md-3">
-             <a class="fancybox" rel="group" href="img/IMG_1831.JPG"><img class="photo-thumb" src="img/IMG_1831.JPG" alt="" /></a>
+           <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG3.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light3.jpg">
+          </a> 
         </div>
             
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                  <a class="fancybox" rel="group" href="img/about4.jpg"><img class="photo-thumb" src="img/about4.jpg" alt="" /></a>
+           <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG4.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light4.jpg">
+          </a> 
         </div>
       </div>
         
@@ -135,51 +128,73 @@
         
         
       <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/teampractice.JPG"> 
+         <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG5.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light5.jpg">
+          </a> 
         </div>
    
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/about2.jpg"> 
+           <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG6.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light6.jpg">
+          </a> 
         </div>
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/IMG_1831.JPG"> 
+           <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG7.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light7.jpg">
+          </a> 
         </div>
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/about4.jpg"> 
+          <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG8.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light8.jpg">
+          </a> 
         </div>
       </div>
         
       <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/IMG_1830.JPG"> 
+        <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG9.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light9.jpg">
+          </a> 
         </div>
    
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/about3.jpg"> 
+         <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG10.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light10.jpg">
+          </a> 
         </div>
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/results1.JPG"> 
+         <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG11.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light11.jpg">
+          </a> 
         </div>
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/results2.JPG"> 
+        <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG12.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light12.jpg">
+          </a> 
         </div>
       </div>
         
       <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-3">            
-<!--                 <img class="photo-thumb" src="img/Team4.jpg"> -->
-          <img class="photo-thumb" src="http://i1167.photobucket.com/albums/q628/UCSDCogSci/IMG_1840_zpsk7z1paod.jpg" border="0" alt=" photo IMG_1840_zpsk7z1paod.jpg"/>
+         <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG13.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light13.jpg">
+          </a> 
         </div>
-   
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/IMG_1840.JPG"> 
+    <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG14.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light14.jpg">
+          </a> 
         </div>
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/cover.jpg"> 
+          <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG15.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light15.jpg">
+          </a> 
         </div>
-         <div class="col-xs-6 col-sm-4 col-md-3">            
-                 <img class="photo-thumb" src="img/about1.jpg"> 
+          <div class="col-xs-6 col-sm-4 col-md-3">   
+          <a href="img/IMG16.jpg" data-lightbox="image-1">
+                 <img class="photo-thumb" src="img/Light16.jpg">
+          </a> 
         </div>
       </div>
           
@@ -273,6 +288,8 @@
      
     <!-- Load Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+
 
     <script type="text/javascript">
         $(document).ready(function(){       
@@ -284,18 +301,13 @@
               if(scroll_start > offset.top) {
                   $('#navbar').css('background-color', 'rgba(231, 182, 59, 1)');
                } else {
-                  $('#navbar').css('background-color', 'transparent');
+                  $('#navbar').css('background-color', 'rgba(0,0,0,0.4)');
                }
            });
         });
     </script>
     
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".fancybox").fancybox();
-        });
-    </script>
+
 
     
 </body>
