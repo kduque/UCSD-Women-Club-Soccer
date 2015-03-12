@@ -243,6 +243,7 @@ hr {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+
     
 }
 
@@ -257,6 +258,11 @@ hr {
   left: 0;
   min-width: 100%;
   height: auto;
+}
+
+.carousel-inner > .item > h1 {
+    position: fixed;
+    transition: none;
 }
 
 /* For full-screen banner at top of page */
