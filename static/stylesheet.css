@@ -12,28 +12,40 @@ h1,h2,h3,h4 {
 /* navbar */
 .navbar-brand{
   font-family: 'Permanent Marker', cursive;
-  color: white;
+z-index: 2000;
   font-size: 1.em;
   margin-top: -15px;
+
 }
 .navbar-header > a:active,
 .navbar-header > a:hover {
     color: white;
+z-index: 1;
+
 }
 
 .nav.navbar-nav>li,.collapse.navbar-collapse,
  a{
   color: white;
+ z-index: 1;
 }
 
 .nav>li>a:hover {
     color: white;
     background-color: rgb(37,79,136) !important;
+    z-index: 1;
+
 /*    border-bottom: 2px solid blue;*/
 }
 .nav>li>a:focus, {
     color: white;
+    z-index: 1;
+
 /*    border-bottom: 5px solid blue;*/
+}
+
+div#navbar.navbar.navbar-fixed-top{
+  background-color: rgba(0,0,0,0.6);
 }
 
 /* container for every page */
@@ -440,11 +452,17 @@ font-family: 'Gloria Hallelujah', cursive;
 
 /* Photos & Videos page */
 .photo-thumb {
-    width: 215px;
+    
     height: 215px;
+    width: 215px;
+    /*object-fit:contain;*/
     border: 3px solid white;
     margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
 }
+
+
+
 .video-text {
     background-color: rgba(255, 255, 255, 0.9);
     margin-top: 30px;
@@ -462,9 +480,10 @@ font-family: 'Gloria Hallelujah', cursive;
     width: 593px;
     height: 420px;
     float: left;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 50px;
-/*    background-color: rgba(255, 255, 255, 0.9); */
+    /*background-color: rgba(255, 255, 255, 0.9); */
+    background-color: black;
 }
 
 .tryout-text {
