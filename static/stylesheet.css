@@ -21,7 +21,6 @@ z-index: 2000;
 .navbar-header > a:hover {
     color: white;
 z-index: 1;
-
 }
 
 .nav.navbar-nav>li,.collapse.navbar-collapse,
