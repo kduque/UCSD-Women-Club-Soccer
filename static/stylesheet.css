@@ -285,7 +285,7 @@ hr {
     margin-right: 10px;
 }
 .about-pic2 {
-    max-width: 300px;
+    width: 250px;
     height: auto;
     float: right;
     margin-left: 10px; 
