@@ -16,11 +16,14 @@ h1,h2,h3,h4 {
   font-size: 1.em;
   margin-top: -15px;
 }
+.navbar-header > a:active,
+.navbar-header > a:hover {
+    color: white;
+}
 
 .nav.navbar-nav>li,.collapse.navbar-collapse,
  a{
   color: white;
-
 }
 
 .nav>li>a:hover {
@@ -132,6 +135,10 @@ h1,h2,h3,h4 {
   color: black;
   margin-top: 50px;
 }
+.map {
+    float: left;
+    margin-top: 50px;
+}
 
 .warren_field{
   width: 450px;
@@ -142,19 +149,19 @@ h1,h2,h3,h4 {
   margin-top: 50px;
   color: white;
   border: 3px solid rgb(231, 182, 59);
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .sports_deck{
   width: 450px;
   height: 400px;
-  float: right;
+  float: left;
   display: inline-block;
 /*  background-color: rgba(255, 255, 255, 0.9);*/
   margin-top: 50px;
   color: white;
   border: 3px solid rgb(231, 182, 59);
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 /* results page */
@@ -284,7 +291,7 @@ hr {
     margin-right: 10px;
 }
 .about-pic2 {
-    max-width: 300px;
+    width: 250px;
     height: auto;
     float: right;
     margin-left: 10px; 
@@ -328,9 +335,13 @@ body {
 .thumbnail {
     position:relative;
     overflow:hidden;
+    height: 275px;
+    margin-bottom: 0px;
+}
+.thumbnail > img  {
+    width: 253px;
     height: 266px;
 }
-
 
  
 .caption {
@@ -344,11 +355,11 @@ body {
     text-align:center;
     color:#fff !important;
     z-index:2;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .thumbnail:hover .caption {
     top:0%;
@@ -458,12 +469,6 @@ font-family: 'Gloria Hallelujah', cursive;
 /*    background-color: rgba(255, 255, 255, 0.9); */
 }
 
-
-
-
-    
-
-
 .tryout-text {
     width: 460px;
     height: auto;
@@ -472,8 +477,25 @@ font-family: 'Gloria Hallelujah', cursive;
     margin-top: 50px;
     padding: 10px;
 }
-
-
+.tryout-divider {
+    width: 458px;
+    height: 0.25em;
+    background-color: rgb(231, 182, 59);
+}
+.roster-text {
+    background-color: grey;
+    color: white; 
+    width: auto;
+    height: 39px;
+    margin-bottom: 20px; 
+    padding-left: 10px;
+    padding-bottom: 5px;
+/*    padding-top: 1px;*/
+}
+.roster-text > h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 
 .rostername {
